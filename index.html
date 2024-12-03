@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Editor with Transparent Text Box</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Editor with Text Box</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <div id="canvasContainer">
+      <canvas id="imageCanvas"></canvas>
+      <textarea id="textOverlay" placeholder="Edit your text here"></textarea>
+    </div>
+    <button id="downloadBtn">Download Image</button>
+  </div>
+  
+   <div id="text"><p style="color: rgb(255, 255, 255);
+   font-family: sans-serif;
+   margin: 0%;
+   display:inline-block;
+   padding:10px 10px 25px 20px;
+   transform: translate(137%,503%);
+   text-align:left;
+   opacity:70%;
+   border-radius: 2px;
+   z-index: 10;
+   background: #000000;">The Rameshwaram Cafe @ JP Nagar, 52,<br> Outer Ring Rd, Jeewan Griha Colony, 2nd Phase,<br> J. P. Nagar, Bengaluru, Karnataka 560078</p></div> 
+   <center><img src="darshan photo.jpeg" style="z-index: 0;
+   width: 487px;
+   height: 469px;"></center> 
+
+  <img src="Screenshot (846).png" style="transform: translate(470%,-110%);   border-radius: 5px;
+   ">
+   <div id="gps" style="display: inline-block;
+   border-radius: 5px;"><p style="color: rgb(255, 255, 255);
+    margin: 0%;
+    display:inline-block;
+    padding:3px 3px 3px 3px;background: #000000;
+    transform: translate(650%,-910%);
+    opacity: 70%;
+    font-size: 10px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;"><img src="logo.png" style="margin-right: 5px;
+    
+    width: 15px;
+    height: 15px;
+   "><b>GPS map camera</b></p></div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
